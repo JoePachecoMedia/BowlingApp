@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/hit1"
+                android:padding="15dip"
+                android:text="@string/one"
+                android:onClick="hit"/>
+
+            <Button
+                android:id="@+id/hit2"
+                android:padding="15dip"
+                android:text="@string/two"
+
+                android:onClick="hit"/>
+
+            <Button
+                android:id="@+id/hit3"
+                android:padding="15dip"
+                android:text="@string/three"
+                android:onClick="hit" />
+
+            <Button
+                android:id="@+id/hit4"
+                android:padding="15dip"
+                android:text="@string/four"
+                android:onClick="hit" />
+
+            <Button
+                android:id="@+id/hit5"
+                android:padding="15dip"
+                android:text="@string/five"
+                android:onClick="hit" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/hit6"
+                android:padding="15dip"
+                android:text="@string/six"
+                android:onClick="hit"/>
+
+            <Button
+                android:id="@+id/hit7"
+                android:padding="15dip"
+                android:text="@string/seven"
+                android:onClick="hit" />
+
+            <Button
+                android:id="@+id/hit8"
+                android:padding="15dip"
+                android:text="@string/eight"
+                android:onClick="hit" />
+
+            <Button
+                android:id="@+id/hit9"
+                android:padding="15dip"
+                android:text="@string/nine"
+                android:onClick="hit" />
+
+            <Button
+                android:id="@+id/hit10"
+                android:padding="15dip"
+                android:text="@string/ten"
+                android:onClick="hit"/>
+        </TableRow>
+
+    <Button
+        android:id="@+id/hit0"
+        android:layout_width="457dp"
+        android:padding="15dip"
+        android:text="@string/gutter"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+
+    </TableLayout>

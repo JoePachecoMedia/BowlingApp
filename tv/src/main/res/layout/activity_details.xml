@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity"
+    tools:deviceIds="tv"
+    tools:ignore="MergeRootFrame">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bowling App" />
+
+    <TableRow>
+
+        <TextView android:text="Player 1 Name: " />
+
+        <EditText
+            android:id="@+id/player1"
+            android:paddingHorizontal="60dip" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="Player 2 Name: " />
+
+        <EditText
+            android:id="@+id/player2"
+            android:paddingHorizontal="60dip" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="Player 3 Name: " />
+
+        <EditText
+            android:id="@+id/player3"
+            android:paddingHorizontal="60dip" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:gravity="center"
+            android:layout_column="1"
+            android:onClick="startGame"
+            android:text="Start Game" />
+
+    </TableRow>
+
+</TableLayout>

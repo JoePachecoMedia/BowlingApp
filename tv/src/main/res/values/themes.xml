@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.BowlingApp" parent="@style/Theme.Leanback" />
+</resources>
